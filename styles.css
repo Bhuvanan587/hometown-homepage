@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-family: 'Ysabeau SC', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#chennai-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+    height: 343px;
+    background-image: url("https://t4.ftcdn.net/jpg/04/84/47/27/360_F_484472702_acpl3SZTBwb2Al4ZiW8VusICp7Utl8ed.jpg");
+    background-size: cover;
+}
+
+#city{
+border: solid 4px #d62828;
+padding: 0 10px 10px 12px;
+background-color:#ffb703 ;
+color: #ffffff;
+width: 201px;
+height: 34px; 
+}
+
+#info{
+border: solid 4px #eae2b7;
+background-color: #023047;
+color: #ffffff;
+width: 400px;
+height: 75px;
+text-align: center;
+}
+
+#activities{
+text-align: center;
+width: 720px;
+height: 378px;
+background: #8ecae6;
+}
+
+.activities-heading{
+margin: 0;
+padding: 20px 25px 0px 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.infobox{
+    width: 200px;
+    height: 250px;
+}
+
+.infobox-img{
+    border-radius:50% ;
+    width: 100px;
+    height: 100px;
+}
+
+#guide{
+background-color: #fefae0;
+width: 720px;
+height: 394px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#card{
+border-radius: 10px;
+background-color: #ffafcc;
+width: 500px;
+height: 295px;
+display: flex;
+border-bottom: solid 6px #fb8500;
+}
+
+#card-img{
+    margin: 50px 30px 0 30px;
+    background-image: url("images/BS.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 200px;
+}
+
+#card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
